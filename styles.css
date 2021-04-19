@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+
+    background-color: rgb(79, 136, 182);/* color fonde de div id header */
+    color: white;/* color de letras del header */
+    height: 85px; /* alto de div header */
+    padding-top: 7px; /* estos px se suman al tamaño de la caja, tener cuidado ya que la agrandan */
+    margin-bottom: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.logo{
+
+    text-transform: uppercase; /* todas las letras mayusculas en header class logo */
+    
+    padding-left: 10px; /* estos px se suman al tamaño de la caja, tener cuidado ya que la agrandan, en este caso le agrega ancho, y al poner margenes automaticos puede quedar desproporcionado con otros elementos que no contengan la misma cantidad de px*/
+}
+
+.logo a{/* llama especificamente a "a href" contenido en header class logo h1 */
+
+    text-decoration: none; /* quita formato de texto del enlace */
+    color: white;
+
+}
+
+#nav{
+        background-color: rgb(45, 45, 97);
+        color: white;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5px;
+        padding-bottom: 5px;
+}
+
+ul{
+    text-align: right;
+}
+
+li{
+    display: inline;
+    padding-right: 3px;/* para que el padding no afecte el tamaño de la caja hay que aplicarlo en su elemento mas directo, no en div */
+}
+
+li a{
+    color: white;
+    text-decoration: none /* quita formato de enlace */
+}
+
