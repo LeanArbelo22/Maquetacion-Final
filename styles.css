@@ -43,6 +43,7 @@
 
 ul{
     text-align: right;
+    list-style-type: none; /* en este caso perdio el formato de lista por usar text decoration en li a, por lo que esto este como ref para otros casos */
 }
 
 li{
@@ -50,7 +51,13 @@ li{
     padding-right: 3px;/* para que el padding no afecte el tamaño de la caja hay que aplicarlo en su elemento mas directo, no en div */
 }
 
-li a{
+li a:hover{/* hover aplica efecto cuando se pasa el cursor en los elementos aplicados, en este caso si no esta en li a y se usa en li agarra el elemento sin ajustarse a las letras y se ve modificado por el padding */
+    background-color: rgb(79, 136, 182);
+    padding: 3.3px;
+    color: rgb(220, 245, 237);
+}
+
+li a{ /* tambien se lo puede llamar por #nav ul li a */
     color: white;
     text-decoration: none /* quita formato de enlace */
 }
