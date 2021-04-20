@@ -62,3 +62,44 @@ li a{ /* tambien se lo puede llamar por #nav ul li a */
     text-decoration: none /* quita formato de enlace */
 }
 
+main{
+    
+    margin-left: 10%; /* alineacion con titulo y nav */
+    display: flex;
+    width: 67%;
+}
+
+section{
+    background-color: rgba(32, 78, 78, 0.918);
+    color: rgb(10, 8, 20);
+}
+
+.principal{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 90%;
+}
+
+h1, h2, h3{
+    margin-bottom: 10px;/* margen de abajo del titulo con el parrafo similar salto de linea */
+}
+
+.article{
+    margin-bottom: 7px;
+    
+}
+
+.partes{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 40%;
+}
+
+
+aside{
+    display: flex;
+}
