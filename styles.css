@@ -66,40 +66,62 @@ main{
     
     margin-left: 10%; /* alineacion con titulo y nav */
     display: flex;
-    width: 67%;
+    float: left;
 }
 
 section{
     background-color: rgba(32, 78, 78, 0.918);
     color: rgb(10, 8, 20);
+    width: 67%;
+    height: 40%;
 }
 
 .principal{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 30px;
+    margin: 15px;
+    padding: 10px;
+    padding-left: 20px;
     padding-right: 30px;
     width: 90%;
+    background-color: white;
 }
 
 h1, h2, h3{
     margin-bottom: 10px;/* margen de abajo del titulo con el parrafo similar salto de linea */
+    padding: 3px;
 }
 
 .article{
-    margin-bottom: 7px;
-    
+    margin-bottom: 5px; 
 }
 
+#contenido{
+    background-color: white;
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+
+}
 .partes{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 10px;
     width: 40%;
+    display: inline-block; /* hizo que los parrafos se acomoden un al lado/arriba/abajo del otro */
+    
 }
 
 
 aside{
     display: flex;
+    background-color: gray;
+    margin-left: 15px; /* separa el aside de main */
+    
 }
+
+.costado{
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 169px;
+    height: 520px;
+}
+
