@@ -98,7 +98,7 @@ h1, h2, h3{
     background-color: white;
     margin: 15px;
     padding: 10px;
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     justify-content: space-between
 
@@ -112,7 +112,6 @@ h1, h2, h3{
 
 
 aside{
-    display: flex;
     background-color: gray;
     margin-left: 15px; /* separa el aside de main */
     
@@ -122,6 +121,6 @@ aside{
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 169px;
-    height: 520px;
+    height: 295px;
 }
 
