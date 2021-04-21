@@ -3,3 +3,21 @@
     padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+header{
+
+    /* texto */
+    text-transform: uppercase; /* mayusculas */
+    font-size: 2em;/* igual a xx-large */
+    letter-spacing: -3px; /* reduce o da espacio entre letras / la misma funcion pero con palabras es word-spacing */
+    text-shadow: -2px 3px 8px black; /* sombra de texto: px (horizontal) px (vertical) px (blur o difuminado) color de sombra */
+    
+    /* caja del elemento */
+    width: 80%;/* ancho */
+    background-color: powderblue;
+}
+
+header a{/* para quitar formato a enlace */
+    text-decoration: none;
+}
+
