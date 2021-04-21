@@ -65,6 +65,14 @@ nav{
     background-color: #e9644c;
 }
 
+.navbarG{
+    background-color: rgb(187, 48, 187);
+}
+
+.navbarU{
+    background-color: #c2381a;
+}
+
 ul{
     text-align: right; /* lleva los elementos li a la derecha */
     padding: 7px; /* aleja el texto del margen de la caja cn relleno */
@@ -81,6 +89,42 @@ li{
 }
 
 li a{
-    text-decoration: none;
+    text-decoration: none;/* quita formato enlace */
     color: beige;
+}
+
+.navbar li a:hover{/* lo que pasa cuando pasa el mouse sobre los items */
+    background-color: rgb(208, 229, 231);
+    color: rgb(37, 37, 37);
+    padding-top: 8px;
+    padding-bottom: 9px;
+    padding-left: 9px;
+    padding-right: 10px;
+}
+
+.navbarN li a:hover{
+    background-color: rgb(240, 240, 186);
+    color: rgb(37, 37, 37);
+    padding-top: 8px;
+    padding-bottom: 9px;
+    padding-left: 9px;
+    padding-right: 10px;
+}
+
+.navbarG li a:hover{
+    background-color: rgb(184, 181, 223);
+    color: rgb(37, 37, 37);
+    padding-top: 8px;
+    padding-bottom: 9px;
+    padding-left: 9px;
+    padding-right: 10px;
+}
+
+.navbarU li a:hover{
+    background-color: rgb(233, 207, 173);
+    color: rgb(37, 37, 37);
+    padding-top: 8px;
+    padding-bottom: 9px;
+    padding-left: 9px;
+    padding-right: 10px;
 }
