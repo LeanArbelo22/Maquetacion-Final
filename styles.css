@@ -34,7 +34,7 @@ header{
 }
 
 .logous{
-    background-color: #a83e26;
+    background-color: #c2381a;
 }
 
 header a{/* llamo a "a" porque trae formato, de lo contrario no cambiaria el color ni otra caracteristica del texto que ya viene por defecto en los enlaces */
@@ -70,7 +70,7 @@ nav{
 }
 
 .navbarU{
-    background-color: #c2381a;
+    background-color: #a83e26; 
 }
 
 ul{
@@ -121,7 +121,7 @@ li a{
 }
 
 .navbarU li a:hover{
-    background-color: rgb(233, 207, 173);
+    background-color: #dfa193;
     color: rgb(37, 37, 37);
     padding-top: 8px;
     padding-bottom: 9px;
