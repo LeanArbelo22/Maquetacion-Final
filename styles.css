@@ -13,8 +13,12 @@ header{
     text-shadow: -2px 3px 8px black; /* sombra de texto: px (horizontal) px (vertical) px (blur o difuminado) color de sombra */
     
     /* caja del elemento */
-    width: 80%;/* ancho */
-    background-color: powderblue;
+    width: 85%;/* ancho */
+    height: 100px;/* alto */
+    background-color: rgb(39, 141, 155);
+    margin-left: auto;
+    margin-right: auto; /* estos margenes auto hacen que el header se posicione en el centro */
+    padding: 1%; /* relleno DE LA CAJA, si aumento no es padding del contenido (texto) */
 }
 
 header a{/* para quitar formato a enlace */
