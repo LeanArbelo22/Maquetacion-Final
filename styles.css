@@ -38,7 +38,7 @@ header{
 
 header a{/* llamo a "a" porque trae formato, de lo contrario no cambiaria el color ni otra caracteristica del texto que ya viene por defecto en los enlaces */
     text-decoration: none;/* para quitar formato a enlace */
-    color: rgb(243, 224, 188);
+    color: rgb(250, 246, 240);
 }
 
 .superior{
