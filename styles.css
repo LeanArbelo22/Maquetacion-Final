@@ -10,18 +10,39 @@ header{
     text-transform: uppercase; /* mayusculas */
     font-size: 2em;/* igual a xx-large */
     letter-spacing: -3px; /* reduce o da espacio entre letras / la misma funcion pero con palabras es word-spacing */
-    text-shadow: -2px 3px 8px black; /* sombra de texto: px (horizontal) px (vertical) px (blur o difuminado) color de sombra */
-    
+    text-shadow: -2px 3px 10px black; /* sombra de texto: px (horizontal) px (vertical) px (blur o difuminado) color de sombra */
+
     /* caja del elemento */
     width: 85%;/* ancho */
-    height: 100px;/* alto */
-    background-color: rgb(39, 141, 155);
+    height: 130px;/* alto */
     margin-left: auto;
     margin-right: auto; /* estos margenes auto hacen que el header se posicione en el centro */
     padding: 1%; /* relleno DE LA CAJA, si aumento no es padding del contenido (texto) */
 }
 
-header a{/* para quitar formato a enlace */
-    text-decoration: none;
+.logoindex{ /* separado de header original para darle color a cada header segun la pagina */
+    background-color: rgb(39, 141, 155);
+}
+
+.logonews{
+    background-color: tomato;
+}
+
+.logogallery{
+    background-color: rgb(192, 108, 192);
+}
+
+.logous{
+    background-color: #a83e26;
+}
+
+header a{/* llamo a "a" porque trae formato, de lo contrario no cambiaria el color ni otra caracteristica del texto que ya viene por defecto en los enlaces */
+    text-decoration: none;/* para quitar formato a enlace */
+    color: rgb(243, 224, 188);
+}
+
+.superior{
+    padding-top: 25px;
+    padding-left: 30px;/* ajusta el txto lejos de los margenes de la caja header */
 }
 
