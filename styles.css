@@ -17,7 +17,8 @@ header{
     height: 130px;/* alto */
     margin-left: auto;
     margin-right: auto; /* estos margenes auto hacen que el header se posicione en el centro */
-    padding: 1%; /* relleno DE LA CAJA, si aumento no es padding del contenido (texto) */
+    padding-right: 15px; 
+    padding-left: 15px;/* relleno DE LA CAJA, si aumento no es padding del contenido (texto) */
 }
 
 .logoindex{ /* separado de header original para darle color a cada header segun la pagina */
@@ -46,3 +47,31 @@ header a{/* llamo a "a" porque trae formato, de lo contrario no cambiaria el col
     padding-left: 30px;/* ajusta el txto lejos de los margenes de la caja header */
 }
 
+nav{
+    width: 85%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto; /* ajusta todas las nav a la altura del header */
+    padding-left: 15px;
+    padding-right: 15px;/* ya que el padding l/r del header es de 30 px (15 y 15) asi iguala su width */
+    margin-top: 8px;
+}
+
+.navbar{
+    background-color: #2471A3;
+}
+
+ul{
+    text-align: right; /* lleva los elementos li a la derecha */
+    padding: 7px /* aleja el texto del margen de la caja cn relleno */
+}
+
+li{
+    list-style-type: none; /* quita el formato de lista */
+    display: inline;/* los muestra en linea horizontal */
+    font-size: 1.3em;
+}
+
+li a{
+    text-decoration: none;
+}
