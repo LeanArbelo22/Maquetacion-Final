@@ -3,7 +3,7 @@
     padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/* HEADER */
 header{
 
     /* texto */
@@ -47,14 +47,40 @@ header a{/* llamo a "a" porque trae formato, de lo contrario no cambiaria el col
     padding-left: 30px;/* ajusta el txto lejos de los margenes de la caja header */
 }
 
+
+/* NAVIGATION BAR */
 nav{
     width: 85%;
-    height: 40px;
+    height: 25%;/* si no no se ajusta al tamaño de otras pantallas */
     margin-left: auto;
     margin-right: auto; /* ajusta todas las nav a la altura del header */
     padding-left: 15px;
     padding-right: 15px;/* ya que el padding l/r del header es de 30 px (15 y 15) asi iguala su width */
     margin-top: 8px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5em;
+}
+@media screen and (min-width: 300px) and (max-width: 550px) {
+    
+    header{
+        text-align: center;
+    }
+
+    .superior{
+        padding-left: 0;
+    }
+
+    nav{
+     height: 40px;
+     display: flex;
+     justify-content: center;
+     
+     }
+
+    ul{
+        padding: 0;
+    }
 }
 
 .navbar{/* un color para cada navbar */
@@ -80,12 +106,11 @@ ul{
     padding-right: 20px;
     }
 
-/* PROBLEMA CON RESPONSIVE EN NAVBAR si uso position absolute se corrige pero no muestra los li a la derecha */
+/* PROBLEMA CON RESPONSIVE EN NAVBAR : casi solucionado*/
 
 li{
     list-style-type: none; /* quita el formato de lista */
     display: inline;/* los muestra en linea horizontal */
-    font-size: 1.3em;
 }
 
 li a{
@@ -127,4 +152,105 @@ li a{
     padding-bottom: 9px;
     padding-left: 9px;
     padding-right: 10px;
+}
+
+/* SECTION / MAIN */
+main{
+    display: flex;/* hace que el banner se ponga al lado del contenido */
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+    padding-right: 4px;/* iguala el ancho con el header, si ponia 15 en left el contenido se veia mas al costado*/
+    font-size: 1.4em;
+}
+.contenido{
+    background: #b3afae;
+    width: 70%;
+    display: flex;
+    flex-direction: column/* coloca las noticias una encima de otra */;
+    align-items: center;
+    justify-content: space-between;
+    }
+/* Aside */
+aside{
+    width: 30%;
+    margin-left: 10%;
+    background-color: darkseagreen;
+    height: 500px;
+    padding: 10px;
+}
+/* contenido de nuevo */
+.principal{
+    width: 95%;
+    background: white;
+    padding: 7px;
+    margin: 14px;
+}
+
+.destacado{
+    padding: 5px;
+}
+.destacado h2{
+    text-transform: uppercase;
+    padding:12px;
+    color: #6eac29;
+}
+
+.destacado p{
+    text-align: justify;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+
+}
+
+.secundario{
+    width: 95%;
+    background: white;
+    padding: 7px;
+    margin-bottom: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.noticia{
+    width: 45%;
+    padding: 2%;
+}
+
+.noticia h3{
+    text-transform: uppercase;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    color: #35af64;
+}
+
+.noticia p{
+    text-align: justify;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 2px;
+}
+
+/* FOOTER */
+
+footer{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(39, 141, 155) ;
+    padding: 3px 15px;
+}
+
+footer p{
+    text-align: center;
+    color: rgb(37, 37, 37);
+}
+footer p a{
+    color: #b3afae;
+    text-decoration: none;
 }
