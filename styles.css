@@ -59,9 +59,9 @@ nav{
     margin-top: 8px;
     display: flex;
     justify-content: flex-end;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
-@media screen and (min-width: 300px) and (max-width: 550px) {
+@media screen and (min-width: 300px) and (max-width: 750px) {
     
     header{
         text-align: center;
@@ -75,6 +75,7 @@ nav{
      height: 40px;
      display: flex;
      justify-content: center;
+     margin-top: 3px;
      
      }
 
@@ -160,7 +161,6 @@ main{
     width: 87%;
     margin-left: auto;
     margin-right: auto;
-    background-color: antiquewhite;
     padding-right: 4px;/* iguala el ancho con el header, si ponia 15 en left el contenido se veia mas al costado*/
     font-size: 1.4em;
 }
@@ -175,10 +175,11 @@ main{
 /* Aside */
 aside{
     width: 30%;
-    margin-left: 10%;
+    margin-left: 15%;
     background-color: darkseagreen;
-    height: 500px;
+    margin-bottom: 300px;
     padding: 10px;
+    margin-right: -4px;
 }
 /* contenido de nuevo */
 .principal{
@@ -234,6 +235,56 @@ aside{
     padding-left: 8px;
     padding-right: 8px;
     padding-bottom: 2px;
+}
+
+@media screen and (min-width: 250px) and (max-width: 750px){
+    main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 3px;
+        padding-top: 3px;
+        width: 85%;
+        padding-right: 15px;
+        padding-left: 15px;
+        background-color: #2471A3;
+    }
+    .contenido{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .principal{
+        font-size: 0.7em;
+        padding: 2px;
+        margin:10px;
+        margin-bottom: -1px;
+    }
+    .secundario{
+        font-size: 0.69em;
+        margin: 10px;
+          display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+    }
+
+    .noticia{width: 90%;
+    padding: 15px;
+}
+
+    aside{
+        margin: 0px;
+        padding:10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 100%;
+    }
 }
 
 /* FOOTER */
