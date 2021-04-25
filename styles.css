@@ -3,6 +3,10 @@
     padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body{
+    background: #EBF5FB;
+}
 /* HEADER */
 header{
 
@@ -65,6 +69,7 @@ nav{
     
     header{
         text-align: center;
+        width: 90%;
     }
 
     .superior{
@@ -76,6 +81,7 @@ nav{
      display: flex;
      justify-content: center;
      margin-top: 3px;
+     width: 90%;
      
      }
 
@@ -165,7 +171,7 @@ main{
     font-size: 1.4em;
 }
 .contenido{
-    background: #b3afae;
+    background: #103e5c;
     width: 70%;
     display: flex;
     flex-direction: column/* coloca las noticias una encima de otra */;
@@ -176,7 +182,7 @@ main{
 aside{
     width: 30%;
     margin-left: 15%;
-    background-color: darkseagreen;
+    background-color:#5282a1;
     margin-bottom: 300px;
     padding: 10px;
     margin-right: -4px;
@@ -184,7 +190,7 @@ aside{
 /* contenido de nuevo */
 .principal{
     width: 95%;
-    background: white;
+    background: #ebfbfb;
     padding: 7px;
     margin: 14px;
 }
@@ -195,7 +201,7 @@ aside{
 .destacado h2{
     text-transform: uppercase;
     padding:12px;
-    color: #6eac29;
+    color: #41657e;
 }
 
 .destacado p{
@@ -208,7 +214,7 @@ aside{
 
 .secundario{
     width: 95%;
-    background: white;
+    background: #ebfbfb;
     padding: 7px;
     margin-bottom: 14px;
     display: flex;
@@ -227,7 +233,7 @@ aside{
     padding-top: 2px;
     padding-bottom: 3px;
     padding-left: 5px;
-    color: #35af64;
+    color: #5282a1;
 }
 
 .noticia p{
@@ -235,6 +241,17 @@ aside{
     padding-left: 8px;
     padding-right: 8px;
     padding-bottom: 2px;
+}
+/* imagenes */
+.noticiasindex{width:45%}
+.noticiasindex img{
+    width: 215%;
+}
+.noticia a{
+    text-decoration: none;
+}
+.noticia a p{
+    color: black;
 }
 
 @media screen and (min-width: 250px) and (max-width: 750px){
@@ -245,7 +262,7 @@ aside{
         justify-content: center;
         margin-top: 3px;
         padding-top: 3px;
-        width: 85%;
+        width: 90%;
         padding-right: 15px;
         padding-left: 15px;
         background-color: #2471A3;
@@ -284,6 +301,7 @@ aside{
         margin-top: 5px;
         margin-bottom: 5px;
         width: 100%;
+        background-color: #5282a1;
     }
 }
 
