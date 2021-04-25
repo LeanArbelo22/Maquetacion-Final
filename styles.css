@@ -340,9 +340,16 @@ footer{
     width: 85%;
     margin-left: auto;
     margin-right: auto;
-    background-color:rgb(39, 141, 155) ;
     padding: 3px 15px;
 }
+
+#celeste{background-color:rgb(39, 141, 155) ;}
+#naranja
+{background-color: tomato;}
+#violeta{
+    background-color: rgb(192, 108, 192);}
+#marron{
+    background-color: #c2381a;}
 
 footer p{
     text-align: center;
